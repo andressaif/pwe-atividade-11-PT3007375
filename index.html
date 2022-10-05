@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>HOME - IFSP - Pirituba</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="forms.css" rel="stylesheet" type="text/css" />
+  <script src="script.js" defer async charset="utf-8"> </script>
+</head>
+
+<body>
+  <header id="cabecalho">
+      <nav>
+            <object width="100%" height="400px" data="menu.html"></object>
+      </nav>
+  </header>
+
+  <main>
+
+  <!-- Carrossel  -->
+    <div class="slideshow">
+      
+      <div class="slides fade">
+        <div class="numero_slide"> 1/4 </div>
+        <img src="images/anota_ai.png" style="width:100%">
+        <div class="legenda_slide"> Caption Text </div> 
+      </div>
+
+      <div class="slides fade">
+        <div class="numero_slide"> 2/4 </div>
+        <img src="images/ifsp_covid.jpg" style="width:100%">
+        <div class="legenda_slide"> Caption Text </div>
+      </div>
+
+      <div class="slides fade">
+        <div class="numero_slide"> 3/4 </div>
+        <img src="images/vestibular_ifsp.jpg" style="width:100%">
+        <div class="legenda_slide"> Caption Text </div>
+      </div>
+
+      <div class="slides fade center-2"> 
+        <div class="numero_slide"> 4/4 </div>
+        <h2>Conheça os desafios de inovação</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5g5LQe3m8Po" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen s></iframe>
+        <div class="legenda_slide"> Caption Text </div>
+      </div>
+       <!-- Botões direita e esquerda do carrossel -->
+
+    <a class="proximo" onclick="plusSlides(1)">&#10095;</a>
+    <a class="anterior" onclick="plusSlides(-1)">&#10094;</a>
+
+    </div>
+
+    <!-- Círculos do carrossel -->
+
+    <div style="text-align:center">
+  <span class="circulo" onclick="currentSlide(1)"></span>
+  <span class="circulo" onclick="currentSlide(2)"></span>
+  <span class="circulo" onclick="currentSlide(3)"></span>
+  <span class="circulo" onclick="currentSlide(4)"></span>
+  </div>
+
+    
+  <aside>
+    <div class="center-1">
+    <h2>Acontece no IFSP</h2>
+      <figure>
+    <img class="palestra_seja_raro" src='images/SEJA_RARO.jpg' alt="Palestra Seja Raro"> 
+    <figcaption class="legenda_palestra"> Aniversário do IFSP - Pirituba - Palestra Augusto Aielo</figcaption>
+      </figure>
+    </div>
+  </aside>
+
+    <div class="conteudo_grid">
+      <div class="item_grid eleicoes">
+        <img class="img_grid" src="images/eleicoes.jpg" alt="Eleições IFSP">
+        <p><strong>Radar IFSP: informe-se sobre as eleições do dia 13 de outubro</strong></p> <br>
+<p>Todos os alunos e servidores podem votar; acesse aqui a cabine de votação online do seu câmpus</p>
+      </div>
+      <div class="item_grid snct">
+      <img class="img_grid" src="images/snct.jpg" alt="Semana Nacional de Ciência e Tecnologia">
+        <p><strong>IFSP: SNCT reúne atividades entre 19 e 24 de outubro</strong></p> <br>
+        <p>Programação reunirá iniciativas para aproximar pesquisadores e atividades culturais</p>
+      </div>
+      <div class="item_grid residencia">
+      <img class="img_grid" src="images/residencia.png" alt="Bolsas para Residência Pedagógica">
+        <p><strong>IFSP oferece bolsa aos voluntários da Residência Pedagógica</strong></p> <br>
+        <p>Bolsa de R$ 400,00 será paga pelo período de três meses</p>
+      </div>
+      <div class="item_grid maratona">
+      <img class="img_grid" src="images/maratona.jpeg" alt="Maratona de Programação do IFSP">
+        <p><strong>Inscrições abertas para a III Maratona InterIF</strong></p> <br>
+        <p>Maratona de programação do IFSP será realizada online, no dia 31 de outubro; inscrições até 26 de outubro</p>
+      </div>
+    </div>
+
+      <div id="video_desafios">
+      <div class="center-2">
+        <h2> Conheça os desafios de inovação </h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5g5LQe3m8Po" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br>
+    </div>
+      </div>
+    
+  </main>
+
+  <footer>
+    <br><br>
+    <a href='https://www.facebook.com/ifsppirituba'>
+      <img class='facebook' src='images/facebook.png' alt="Facebook"> </a>
+
+    <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011)
+      2504-0100</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

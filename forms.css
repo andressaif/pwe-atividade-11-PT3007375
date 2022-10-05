@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  border: 2px;
+  border-radius: 5px;
+  color: white;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+ button:hover {
+   background-color:#43a344;
+ }
+
+.background-entrar {
+    background: #efe9e9c1;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.label-entrar {
+  display: block;
+}
+
+.input-entrar {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.select-eventos {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.input-forms-eventos {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-contato {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Formulário Bootstrap */
+
+.formulario-entrar {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}

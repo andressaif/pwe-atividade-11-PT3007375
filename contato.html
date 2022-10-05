@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> Contato - IFSP - Pirituba </title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="forms.css" rel="stylesheet" type="text/css"
+</head>
+
+  <body>
+    
+    <header id="cabecalho">
+      <nav>
+            <object width="100%" height="400px" data="menu.html"></object>
+      </nav>
+  </header>
+
+    <main>
+      <h1> Mande uma mensagem </h1>
+      
+      <form action="#">
+        <ul>
+       <li> <label for="nome">Nome</label>
+       <input class="input-contato" type="text" id="nome" name="nome"> </li> <br>
+          
+       <li> <label for="email">E-Mail </label>
+       <input class="input-contato" type="email" id="email" name="email"> </li> <br>
+          
+       <li> <label for="telefone">Telefone (99) 99999-9999 </label>
+       <input class="input-contato" type="number" id="telefone" name="telefone">  </li> <br>
+          
+       <li>  Assunto
+        <select  class="input-contato" name="evento">
+          <option> --Selecione-- </option>
+          <option> Reclamação </option>
+          <option> Sugestão </option>
+        </select>
+       </li>
+
+          <li> Mensagem: <textarea class="input-contato"> </textarea></li> <br>
+          
+          
+          <li>
+            <fieldset>
+              <legend>Opções de Resposta</legend>
+            <input name="opcoes" type="checkbox" value="email" > E-Mail
+            <input name="opcoes" type="checkbox" value="telefone" > Telefone
+            </fieldset>
+          </li> <br>
+        </ul>
+
+          <button type="button" id="enviar" onclick="myFunction()">Enviar</button>
+        
+        <br><br>
+      </form>
+    </main>
+    
+    <footer>
+      <a href='https://www.facebook.com/ifsppirituba'>
+      <img class='facebook' src='images/facebook.png' alt="Facebook"> </a>
+
+    <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011)
+      2504-0100</p>
+    </footer>
+  </body>
+</html>
